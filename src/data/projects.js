@@ -14,9 +14,8 @@ technologies:[
 "Scikit-learn"
 ],
 
-github:"#",
-
-demo:"#"
+github:"https://github.com/munkhbrave22/machine-failure-using-random-forest",
+demo: null
 
 },
 
@@ -36,18 +35,17 @@ technologies:[
 "Vite"
 ],
 
-github:"#",
-
-demo:"#"
+github:"https://github.com/munkhbrave22/portfolio",
+demo:"munkhzorig-portfolio.vercel.app"
 
 },
 
 
 {
-title:"Data Analysis Dashboard",
+title:"oop-accomodation-system",
 
 description:
-"A dashboard project focused on data visualization and insights.",
+"A system using object oriented programming built with jupyter notebook.",
 
 image:"/projects/dashboard.png",
 
@@ -57,9 +55,8 @@ technologies:[
 "Matplotlib"
 ],
 
-github:"#",
-
-demo:"#"
+github:"https://github.com/munkhbrave22/oop-accommodation-system",
+demo: null
 
 }
 
