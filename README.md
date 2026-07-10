@@ -4,13 +4,13 @@ Personal portfolio website built with React and Vite.
 
 ## Features
 
-- Responsive design
-- Dark mode
+- Responsive design for desktop and mobile
+- Dark mode with saved user preference
 - React Router navigation
 - Animated page transitions
 - Project showcase
 - Skills section
-- Contact page
+- Accessible contact form with validation
 
 ## Technologies
 
@@ -19,12 +19,11 @@ Personal portfolio website built with React and Vite.
 - Vite
 - CSS
 - Framer Motion
-- Lucide Icons
-
+- Lucide React Icons
 
 ## Installation
 
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/munkhbrave22/portfolio-website.git
