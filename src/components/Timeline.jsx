@@ -16,7 +16,8 @@ icon:<GraduationCap/>
     year:"2025",
     title:"Basic Programming",
     text:
-    "Learned the basics of programming using Python on Google Colab, tested example data tables to make plot graphs with PyPlot."
+    "Learned the basics of programming using Python on Google Colab, tested example data tables to make plot graphs with PyPlot.",
+    icon:<Code/>
 },
 
 {
