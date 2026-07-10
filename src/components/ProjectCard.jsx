@@ -56,28 +56,27 @@ technologies.map((tech,index)=>(
 
 <div className="project-links">
 
+  <a
+    href={github}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Code size={18} />
+    GitHub
+  </a>
 
-<a href={github}>
-
-<Code size={18}/>
-
-GitHub
-
-</a>
-
-
-
-<a href={demo}>
-
-<ExternalLink size={18}/>
-
-Demo
-
-</a>
-
+  {demo && (
+    <a
+      href={demo}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <ExternalLink size={18} />
+      Demo
+    </a>
+  )}
 
 </div>
-
 
 </div>
 
