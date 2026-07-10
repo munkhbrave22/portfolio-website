@@ -1155,3 +1155,27 @@ outline:3px solid #6366f1;
 outline-offset:2px;
 
 }
+
+.dark-toggle {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: transparent;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.dark-toggle:hover {
+  transform: scale(1.1);
+}
+
+.dark-toggle:focus {
+  outline: 3px solid #6366f1;
+  outline-offset: 3px;
+}
