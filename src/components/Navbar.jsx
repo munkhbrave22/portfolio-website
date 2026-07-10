@@ -19,7 +19,7 @@ return(
 
 
 <h2 className="logo">
-Munkhzorig.dev
+Munkhzorig
 </h2>
 
 
