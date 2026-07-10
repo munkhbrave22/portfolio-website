@@ -1,46 +1,72 @@
 import { useEffect, useState } from "react";
+import { Moon, Sun } from "lucide-react";
+
 
 function DarkModeToggle(){
 
-const [dark,setDark]=useState(
-localStorage.getItem("theme")==="dark"
+const [darkMode, setDarkMode] = useState(
+  localStorage.getItem("darkMode") === "true"
 );
 
 
-useEffect(()=>{
 
-if(dark){
+useEffect(() => {
+
+if(darkMode){
 
 document.body.classList.add("dark");
 
-localStorage.setItem("theme","dark");
-
 }
-
 else{
 
 document.body.classList.remove("dark");
 
-localStorage.setItem("theme","light");
+}
+
+
+localStorage.setItem(
+"darkMode",
+darkMode
+);
+
+
+}, [darkMode]);
+
+
+
+function toggleDarkMode(){
+
+setDarkMode(!darkMode);
 
 }
 
-},[dark]);
 
 
 return(
 
 <button
+
 onClick={toggleDarkMode}
+
 aria-label="Toggle dark mode"
+
+className="dark-toggle"
+
 >
 
-{dark ? "☀️" : "🌙"}
+{
+darkMode
+?
+<Sun size={20}/>
+:
+<Moon size={20}/>
+}
 
 </button>
 
-)
+);
 
 }
+
 
 export default DarkModeToggle;

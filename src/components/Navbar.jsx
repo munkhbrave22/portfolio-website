@@ -25,21 +25,16 @@ Munkhzorig.dev
 
 
 <button
-className="menu-btn"
-onClick={()=>setOpen(!open)}
+  className="menu-btn"
+  onClick={()=>setOpen(!open)}
+  aria-label={open ? "Close navigation menu" : "Open navigation menu"}
 >
-
 {
-open ?
-
-<X size={28}/>
-
-:
-
-<Menu size={28}/>
-
+  open ?
+  <X size={28}/>
+  :
+  <Menu size={28}/>
 }
-
 </button>
 
 

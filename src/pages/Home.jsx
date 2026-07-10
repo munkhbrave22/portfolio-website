@@ -1,4 +1,4 @@
-import profile from "../assets/Profile.jpg";
+import profile from "../assets/Profile.WebP";
 import ProjectCard from "../components/ProjectCard";
 import projects from "../data/projects";
 import Skills from "../components/Skills";
@@ -25,6 +25,8 @@ src={profile}
 alt="Portrait of Munkhzorig"
 
 className="profile"
+
+fetchPriority="high"
 
 initial={{opacity:0}}
 

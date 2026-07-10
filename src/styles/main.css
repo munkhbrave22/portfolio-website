@@ -52,7 +52,7 @@ body.dark {
 
   top:0;
 
-  background:rgba(255,255,255,0.7);
+  background:#ffffff;
 
   z-index:100;
 
@@ -61,7 +61,7 @@ body.dark {
 
 .dark .navbar {
 
-background:rgba(11,11,15,0.7);
+  background:#0b0b0f;
 
 }
 
@@ -90,16 +90,30 @@ gap:25px;
 
 text-decoration:none;
 
-color:inherit;
+color:#111111;
 
 font-weight:500;
 
 }
 
 
+.dark .nav-links a {
+
+color:#f5f5f5;
+
+}
+
+
 .nav-links a.active {
 
-color:#6366f1;
+color:#4f46e5;
+
+}
+
+
+.dark .nav-links a.active {
+
+color:#a5b4fc;
 
 }
 
