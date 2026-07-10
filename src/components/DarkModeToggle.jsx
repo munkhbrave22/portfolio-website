@@ -31,8 +31,8 @@ localStorage.setItem("theme","light");
 return(
 
 <button
-className="theme-btn"
-onClick={()=>setDark(!dark)}
+onClick={toggleDarkMode}
+aria-label="Toggle dark mode"
 >
 
 {dark ? "☀️" : "🌙"}

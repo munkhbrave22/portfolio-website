@@ -5,16 +5,22 @@ import { GraduationCap, Code, Brain } from "lucide-react";
 const timeline = [
 
 {
-year:"2024 - Present",
+year:"2024",
 title:"Computer Science Student",
 text:
 "Building foundations in programming, software development and computer science.",
 icon:<GraduationCap/>
 },
 
+{
+    year:"2025",
+    title:"Basic Programming",
+    text:
+    "Learned the basics of programming using Python on Google Colab, tested example data tables to make plot graphs with PyPlot."
+},
 
 {
-year:"2025",
+year:"2026",
 title:"Web Development",
 text:
 "Creating modern websites and applications using React, JavaScript and CSS.",

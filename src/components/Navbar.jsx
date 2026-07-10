@@ -12,7 +12,10 @@ const [open,setOpen] = useState(false);
 
 return(
 
-<nav className="navbar">
+<nav 
+  className="navbar"
+  aria-label="Main navigation"
+>
 
 
 <h2 className="logo">

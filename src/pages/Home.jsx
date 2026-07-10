@@ -22,6 +22,8 @@ return(
 
 src={profile}
 
+alt="Portrait of Munkhzorig"
+
 className="profile"
 
 initial={{opacity:0}}
