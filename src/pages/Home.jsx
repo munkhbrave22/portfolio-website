@@ -1,4 +1,4 @@
-import profile from "../assets/Profile.WebP";
+import profile from "../assets/Profile.webp";
 import ProjectCard from "../components/ProjectCard";
 import projects from "../data/projects";
 import Skills from "../components/Skills";
