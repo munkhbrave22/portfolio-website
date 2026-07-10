@@ -940,6 +940,7 @@ width:3px;
 
 background:#6366f1;
 
+z-index: 0;
 }
 
 
@@ -975,6 +976,10 @@ align-items:center;
 justify-content:center;
 
 flex-shrink:0;
+
+position:relative;
+
+z-index:1;
 
 }
 
