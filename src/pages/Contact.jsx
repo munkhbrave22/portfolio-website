@@ -49,9 +49,15 @@ Email
 
 
 <p>
-your.email@example.com
+munkhzorig.gantumur@ue-germany.de
 </p>
 
+<a
+  className="email-link"
+  href="mailto:munkhzorig.gantumur@ue-germany.de"
+>
+  munkhzorig.gantumur@ue-germany.de
+</a>
 
 <a
 className="button"
