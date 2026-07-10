@@ -6,8 +6,6 @@ title:"Machine Failure Prediction",
 description:
 "A machine learning model that predicts equipment failures using sensor data.",
 
-image:"/projects/machine-learning.png",
-
 technologies:[
 "Python",
 "Machine Learning",
@@ -25,8 +23,6 @@ title:"Personal Portfolio",
 
 description:
 "A responsive developer portfolio built with React, Vite and modern CSS.",
-
-image:"/projects/portfolio.png",
 
 technologies:[
 "React",
@@ -46,8 +42,6 @@ title:"oop-accomodation-system",
 
 description:
 "A system using object oriented programming built with jupyter notebook.",
-
-image:"/projects/dashboard.png",
 
 technologies:[
 "Python",

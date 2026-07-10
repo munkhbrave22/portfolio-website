@@ -18,13 +18,6 @@ return(
 <div className="card">
 
 
-<img
-src={image}
-alt={title}
-className="project-img"
-/>
-
-
 
 <h3>
 {title}
