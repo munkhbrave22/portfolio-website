@@ -49,17 +49,17 @@ animate={{x:0,opacity:1}}
 
 
 <h1>
-Hi, I'm Munkhzorig
+Hi, I'm Munkhzorig Gantumur
 </h1>
 
 
 <h2>
-Computer Science Student
+Digital Business and Data Science Student
 </h2>
 
 
 <p>
-I build modern web applications and explore
+I like to try out web applications and explore
 software development, machine learning and technology.
 </p>
 

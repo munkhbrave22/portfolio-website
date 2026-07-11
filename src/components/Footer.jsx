@@ -5,7 +5,7 @@ return(
 <footer>
 
 <p>
-    {new Date().getFullYear()} Munkhzorig.
+    {new Date().getFullYear()} Munkhzorig.Gantumur
 </p>
 
 </footer>

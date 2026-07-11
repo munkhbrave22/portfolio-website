@@ -31,8 +31,8 @@ About Me
 
 <p className="intro">
 
-I am a Computer Science student passionate about
-software development, modern web technologies,
+I am a Digital Business and Data Science student who loves
+softwares, modern web technologies,
 and building solutions that combine creativity
 with technology.
 
@@ -52,7 +52,7 @@ Education
 </h3>
 
 <p>
-Computer Science Student
+Digital Business and Data Science Student
 </p>
 
 </div>

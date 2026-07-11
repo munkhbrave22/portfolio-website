@@ -19,7 +19,7 @@ return(
 
 
 <Link to="/" className="logo">
-  Munkhzorig
+  Munkhzorig.Gantumur
 </Link>
 
 
