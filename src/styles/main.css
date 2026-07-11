@@ -1191,3 +1191,20 @@ outline-offset:2px;
   font-size: 1.5rem;
   font-weight: 700;
 }
+
+.profile-image {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  display: block;
+  margin: 30px auto;
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 200px;
+    height: 250px;
+  }
+}

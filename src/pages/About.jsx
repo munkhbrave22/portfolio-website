@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Code, GraduationCap, Heart, Rocket } from "lucide-react";
 import Timeline from "../components/Timeline";
 import PageTransition from "../components/PageTransition";
+import profile from "../assets/about-photo.webp";
 
 function About(){
 
@@ -38,7 +39,11 @@ with technology.
 
 </p>
 
-
+<img
+  src={profile}
+  alt="Portrait of Munkhzorig"
+  className="profile-image"
+/>
 
 <div className="about-grid">
 
