@@ -1184,3 +1184,10 @@ outline-offset:2px;
   outline: 3px solid #6366f1;
   outline-offset: 3px;
 }
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+}

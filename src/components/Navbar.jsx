@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-
+import { Link } from "react-router-dom";
 import DarkModeToggle from "./DarkModeToggle";
 
 
@@ -18,9 +18,9 @@ return(
 >
 
 
-<h2 className="logo">
-Munkhzorig
-</h2>
+<Link to="/" className="logo">
+  Munkhzorig
+</Link>
 
 
 
